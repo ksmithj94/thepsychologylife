@@ -1,7 +1,63 @@
-.nav {
-  background: skyblue;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Alegreya Sans', sans-serif;
 }
 
-.title {
-  text-align: center;
+a {
+	text-decoration: none;
+}
+
+.pl-container {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.pl-align-center {
+	align-items: center;
+}
+
+
+header nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background: skyblue;
+}
+
+header nav ul.pl-navigation {
+	display: flex;
+    list-style-type: none;
+	margin: 0;
+	padding: 0 20px;
+}
+
+header nav ul.pl-navigation li a {
+    display: block;
+    padding: 0 12px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.pl-main-banner {
+	display: block;
+	width: 100%;
+}
+
+.pl-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 120px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 26px;
 }
